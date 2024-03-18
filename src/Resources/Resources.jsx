@@ -2,7 +2,6 @@ import React from 'react';
 import resources from './Resources'; // Pass på at denne stien er korrekt for din prosjektstruktur
 
 const Resources = ({ category }) => {
-  // Filtrer ressursene for å få de som matcher den gitte kategorien
   const categoryResources = resources.filter(resource => resource.category === category);
 
   return (

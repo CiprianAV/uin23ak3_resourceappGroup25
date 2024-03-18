@@ -8,6 +8,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
+  /*
   function App() {
     return (
       <Router>
@@ -30,5 +31,5 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         </div>
       </Router>
     );
-  }
+  }*/
 )
